@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
+
+* {
+	
+	font-family:Asap;
+}
+
+a, a:hover {
+	
+	color:#24890d;
+	text-decoration:none;
+}
+
+#page {
+	max-width: 1260px;
+	margin:0 auto;
+	height:100%;
+	box-shadow: 0px 0px 24px #ddd;
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* NAVBAR */
+
+nav a {
+	color:white !important;
+}
+
+.navbar {
+	border: none;
+	border-radius: 0px !important;
+ 	background-color: #95c11f;
+ 	color:white;
+ 	margin-bottom: 45px;
+}
+.navbar-brand{
+	font-weight:bold;
+	color:white !important;
+}
+
+ .navbar .navbar-nav > .active > a, 
+ .navbar .navbar-nav > .active > a:hover, 
+ .navbar .navbar-nav > .active > a:focus
+  {
+    color: black !important;
+	background-color:#FFF !important;
+ }
+  
+ .navbar .navbar-nav > li > a:hover, 
+ .navbar .navbar-nav > li > a:focus,
+  .navbar .navbar-nav > .search > a
+  {
+    color: black ;
+	background-color:#24890d !important;
+ }
+
+.slogan {	
+	color: #2b2b2b;
+	font-size: 48px;
+	*font-weight: 600;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+#contact-form {
+	
+	margin-top:25px !important;
+	text-align:center;
+}
+
+.btn-success {
+	
+	background-color:#95c11f;
+	border-radius:3px !important;
+	border-color:transparent;
+}
+.btn-success:hover {
+	
+	background-color:#24890d;
+	border-color:transparent;
+}
+
+/***** CAROUSEL *****/
+
+.carousel-container {
+	max-height: 400px;
+	min-height: 400px;
+	margin-bottom: 25px;
+	padding: 20px;
+	*box-shadow: 0px 5px 5px #333;
+}
+.carousel-inner {
+	height: 100%;
+	max-height:370px;
+}
+ .item img {
+	height: 100% !important;
+	max-height: 450px;
+}
+.caption {
+
+	margin-top:10%;
+
+}
+.caption h1  {
+	
+	color:black;
+	font-size:2em;
+}
+ p {
+	
+	color:#666;
+	font-size:16px;
+	line-height:30px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    color: #95c11f;
+    margin-top: 10%;
+}
+.carousel-indicators li{
+	border: 1px solid white;
+}
+.carousel-indicators .active {
+	background-color: white;
+	border: 1px solid white;
+}
+
+#footer {
+	
+	height:150px;
+	background: url(../../../bundles/sopinettemplateamoeba/img/trazeo_icon_bg_trans.png) no-repeat 100% 10%;
+	background-color: #95c11f;
+
+}
+
+#footer a, #footer p {
+	
+	color:white;
+	text-align:center;	
+	margin-top:40px;
+}

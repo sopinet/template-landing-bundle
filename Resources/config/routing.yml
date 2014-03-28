@@ -1,0 +1,3 @@
+sopinet_template_landing_homepage:
+    path:  /hello/{name}
+    defaults: { _controller: SopinetTemplateLandingBundle:Default:index }
