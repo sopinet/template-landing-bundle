@@ -16,6 +16,7 @@ a, a:hover {
 	margin:0 auto;
 	height:100%;
 	box-shadow: 0px 0px 24px #ddd;
+	border-left: 4px solid #95c11f;
 }
 
 .videowrapper {
@@ -55,7 +56,7 @@ nav a {
 
  .navbar .navbar-nav > .active > a, 
  .navbar .navbar-nav > .active > a:hover, 
- .navbar .navbar-nav > .active > a:focus
+ .navbar .navbar-nav > .active > a:focus, .link-active
   {
     color: black !important;
 	background-color:#FFF !important;
@@ -144,8 +145,8 @@ nav a {
 
 #footer {
 	
-	height:150px;
-	background: url(../../../bundles/sopinettemplateamoeba/img/trazeo_icon_bg_trans.png) no-repeat 100% 10%;
+	height:185px;
+	background: url(../../../bundles/sopinettemplateamoeba/img/trazeo_icon_bg_trans.png) no-repeat 105% 45%;
 	background-color: #95c11f;
 
 }
@@ -154,5 +155,12 @@ nav a {
 	
 	color:white;
 	text-align:center;	
-	margin-top:40px;
+	margin-top:5.5%;
+	border:none !important;
+}
+
+.icon-hover {
+	
+	color: #24890d !important;
+	
 }
