@@ -1,10 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic);
 
-* {
-	
-	font-family:Asap;
-}
-
 a, a:hover {
 	
 	color:#24890d;
@@ -17,6 +12,7 @@ a, a:hover {
 	height:100%;
 	box-shadow: 0px 0px 24px #ddd;
 	border-left: 4px solid #95c11f;
+	font-family:Asap !important;
 }
 
 .videowrapper {
