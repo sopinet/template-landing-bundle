@@ -144,19 +144,13 @@ nav a {
 	height:185px;
 	background: url(../../../bundles/sopinettemplateamoeba/img/trazeo_icon_bg_trans.png) no-repeat 105% 45%;
 	background-color: #95c11f;
+	padding-top:60px;
 }
 
 #footer a, #footer {
 	
 	color:white;
 	text-align:center;	
-	padding-top:60px;
 	border:none !important;
 	font-size:16px;
-}
-
-.icon-hover {
-	
-	color: #24890d !important;
-	
 }
