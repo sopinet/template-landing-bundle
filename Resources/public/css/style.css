@@ -90,6 +90,23 @@ nav a {
 	border-color:transparent;
 }
 
+.btn-register {
+	
+	color: #95c11f;
+	background-color:#ffffff;
+	border-radius:3px !important;
+	border-color:transparent;
+}
+.btn-register:hover {
+	color: #24890d;
+	background-color:#E0D9D9;
+	border-color:transparent;
+}
+
+.forgot{
+	color: #95c11f;
+}
+
 /***** CAROUSEL *****/
 
 .carousel-container {
